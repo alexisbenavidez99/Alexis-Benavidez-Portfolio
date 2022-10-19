@@ -7,34 +7,105 @@
 body {
     font-family: "Didact Gothic", Arial, Helvetica, sans-serif;
     margin: 0;
+    background-color: rgb(238, 231, 231)
 }
 
 header {
-    background-color: rgb(89, 192, 240); 
-    padding: 10px; 
+    background-image: url(./Images/main-banner\ background.jpeg); 
+    padding: 20px; 
     display: flex;
     align-items: center;
-    justify-content: space-between;   
+    justify-content: space-between;  
+    border-bottom: 3px solid black; 
 }
+
+h1 {
+    font-size: 50px;
+}
+
 
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    font-size: 20px;
+    font-size: 25px;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;  
 }
 
 nav a {
     text-decoration: none;
+    border-bottom: 3px solid black;
+    margin: 20px;
     color: black;
+}
+
+nav a:hover {
+    color: white;
+}
+
+img {
+    position: relative;
+    left: 5%;
+    bottom: 15%;
+    border: 3px solid black;
+    border-radius: 360px;
 }
 
 .main-banner {
     background-image: url(./Images/main-banner\ background.jpeg);
-    background-repeat: ;
-    height: 300px
+    width: 100%;
+    height: 225px;
 }
+
+.main-banner .subtitle {
+    position: relative;
+    top: 60%;
+    left: 70%;
+    font-size: 35px;
+}
+
+.about-me h2 {
+    font-size: 50px;
+    padding-left: 80px;
+    display: flex;
+    align-items: center;
+}
+
+
+.about-me p {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 30px;
+}
+
+.work h2 {
+    font-size: 50px;
+    padding-left: 80px;
+}
+
+.contact-me h2 {
+    font-size: 50px;
+    padding-left: 80px;
+}
+
+.contact-me ul {
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-me li {
+    border-bottom: 3px solid black;
+}
+
+.contact-me a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 3px solid black;
+
 
 
