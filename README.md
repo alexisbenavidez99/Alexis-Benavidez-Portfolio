@@ -24,7 +24,7 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Usage
-Link to deployed site:
+Link to deployed site: https://alexisbenavidez99.github.io/Alexis-Benavidez-Portfolio/
 
 ## Preview
 ![Screenshot of website](./assets/Images/Screen%20Shot%202022-10-20%20at%202.58.31%20PM.png)
